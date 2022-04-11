@@ -14,7 +14,6 @@ section{
     height: 400px;
     background: transparent;
     border-radius: 25px;
-    /* background: rgb(71, 71, 71); */
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.8);
     display: flex;
     justify-content: center;
@@ -26,6 +25,11 @@ section{
     font-size: 5rem;
     opacity: 0.1;
 }
-/* .card h3{
-    margin-top: 120px;
-} */
+.card-content{
+    margin-top: 600px;
+    overflow: hidden;
+    transition: 1s ease;
+}
+.card:hover .card-content{
+    margin-top: 0;
+}
