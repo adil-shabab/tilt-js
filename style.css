@@ -9,13 +9,23 @@ section{
     height: 100vh;
 }
 .card{
+    position: relative;
     width: 300px;
     height: 400px;
     background: transparent;
     border-radius: 25px;
     /* background: rgb(71, 71, 71); */
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
 }
 .card h1{
-    margin-top: 50px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 5rem;
+    opacity: 0.1;
 }
+/* .card h3{
+    margin-top: 120px;
+} */
